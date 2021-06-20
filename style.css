@@ -134,6 +134,82 @@
     width: 120%;
     height: 200px;
   }
+  .updates{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .updates_text{
+    font-size: 30px;
+    color: #1d3557;
+    text-align: center;
+  }
+  .update_input{
+    margin-top: 10px;
+    width: 100%;
+    height: 30%;
+    background-color:rgba(247, 149, 149, 0.401);
+    border-color: rgb(248, 131, 110);
+  }
+  .button{
+    margin-top: 35px;
+    margin-left: 5px;
+  
+  }
+  .speciality{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+  }
+  .speciality_div{
+    position: relative;
+    width: 100%;
+  }
+  .special_quote{
+    width: 100%;
+    height: 190px;
+     
+  }
+  .quote{
+    position: absolute;
+    font-weight: bold;
+    background-color:rgb(147, 220, 245) ;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+  }
+  .footer{
+    margin-top: 20px;
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+      );
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      padding: 10px;
+
+  }
+  .footer_l{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 23px;
+    font-style: italic;
+  }
+  .footer_r{
+    color: #fff;
+    width: 100%;
+    margin-left: 20%;
+
+  }
   
   @media (min-width: 768px) {
     .navbar {
